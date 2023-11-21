@@ -23,6 +23,7 @@ function Movie({ item }) {
         }),
       });
     } else {
+      if (saved) alert("The show was saved!");
       alert("Please log in to save a movie");
     }
   };
